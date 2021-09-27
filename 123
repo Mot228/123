@@ -12,10 +12,8 @@ def test(x1,y1,x2,y2,x3,y3,x4,y4):
 		return True
 	return False
 	
-	
-x = [] #список иксов
-y = [] #  список игреков
-def func(x,y):
+def func(x,y):#х и у списки
 	n = []
 	for i in range(len(x)+1):
 		n.append([x[i],y[i],x[i+1],y[i+1]])
+	return n
