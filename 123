@@ -11,4 +11,3 @@ def test(x1,y1,x2,y2,x3,y3,x4,y4):
 	if (l1 == l2 and l2 == l3 and l3 == l4) and (dg1 == dg2):
 		return True
 	return False
-
