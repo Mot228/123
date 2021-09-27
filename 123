@@ -25,5 +25,14 @@ def func(l):
 x = [int(x) for x in input().split()]
 y = [int(y) for y in input().split()]
 l = [[i,j] for i,j in zip(x,y)]
-
+while True:
+     while n1!=len(x):
+         while n2!=len(x):
+             while n3!=len(x):
+                 while n4!=len(x):
+                     if n4!=n3,n2,n1:
+                        test(l[
+                     else:
+                         n4+=1
+                         
 
