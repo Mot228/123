@@ -12,18 +12,18 @@ def test(x1,y1,x2,y2,x3,y3,x4,y4):
 		return True
 	return False
 	
-def func(l):
-	n = []
-	lenn = len(l) +1
-	for i in range(lenn):
-		for j in range(1,lenn):
-			for k in range(2,lenn):
-				for p in range(3,lenn):
-					n.append([l[i],l[j],l[k],l[p]])
-	return n 
-	
 x = [int(x) for x in input().split()]
 y = [int(y) for y in input().split()]
 l = [[i,j] for i,j in zip(x,y)]
 
+while True:
+     while n1!=len(x):
+         while n2!=len(x):
+             while n3!=len(x):
+                 while n4!=len(x):
+                     if n4!=n3,n2,n1:
+                        test(l[
+                     else:
+                         n4+=1
+                         
 
